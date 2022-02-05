@@ -5,9 +5,11 @@ import Home from './components/home.js';
 import styled  from 'styled-components';
 function App() {
   return (
-  
-      {/* <Header /> */},
+      <div className="App">
+
+      <Header />
        <Home />  
+      </div>
        );
 
 }
